@@ -1,4 +1,4 @@
-var checkApprove = function (variable, urlCheck, urlFail = "https://google.com") {
+var checkApprove = function (variable, urlCheck, urlFail = "https://smartsender.com") {
     const getUrlParam = function( param ) {
         if ( ! param ) return;
         const queryString = window.location.search;
