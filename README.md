@@ -8,7 +8,9 @@
 
 <code><script src="https://soft-m.ml/js/check.js"></script><br>
 <script><br>
+  
   checkApprove('checking', 'https://soft-m.ml/js/check.php', "https://smartsender.com");<br>
+  
 </script></code>
 
 4. Измените в коде следующие данные:
