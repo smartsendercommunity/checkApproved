@@ -1,13 +1,17 @@
 <?php
+
 ini_set('max_execution_time', '1700');
 set_time_limit(1700);
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST');
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Authorization');
-
 http_response_code(200);
-$ssToken = "QoV2RuK32XMui3H6Dmyzlg6dQbQZ3vsgKlhl5hZhWVBRV5O3Fle0VymbmGdo";
+
+/////////////////////////
+$ssToken = "smart token";
+/////////////////////////
+
 function send_bearer($url, $token, $type = "GET", $param = []){
     $descriptor = curl_init($url);
      curl_setopt($descriptor, CURLOPT_POSTFIELDS, json_encode($param));
